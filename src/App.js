@@ -1,16 +1,11 @@
 import React from 'react';
+import Box from './components/Box';
 
 const App = () => {
   return (
-    <div
-      style={{
-        maxWidth: '700px',
-        textAlign: 'center',
-        margin: '2em auto',
-      }}
-    >
+    <Box maxWidth="700px" textAlign="center" m="2em auto">
       <h1>You&apos;re doing great.</h1>
-    </div>
+    </Box>
   );
 };
 
