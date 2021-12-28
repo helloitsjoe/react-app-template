@@ -23,7 +23,7 @@ jobs:
       - run: yarn
       - run: yarn test
       - uses: helloitsjoe/deploy-github-pages@v1
-        with:
+        ${branch ? 'with:' : ''}
           ${branch ? 'branch_build: true' : ''}
 `.trim();
 
