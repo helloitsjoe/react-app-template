@@ -3,6 +3,17 @@
 A basic template for a React App, customized with a few tools and workflows I
 use in most of my projects.
 
+## Usage
+
+In an empty directory, run:
+
+```
+npx degit helloitsjoe/react-app-template#main
+```
+
+Or add the `--force` option if the directory is not empty (for example if a
+`.git` folder already exists).
+
 ## Tools
 
 - [`styled-components`](https://styled-components.com/)
@@ -29,3 +40,7 @@ to the `main` branch will trigger a new deploy.
 In addition, whenever you push changes to a branch you can see the branch deploy
 at `<your-username>.github.io/<your-repo>/branch-<your-branch>`. This allows you
 to preview changes before deploying them to the main site.
+
+---
+
+Created with https://github.com/helloitsjoe/react-app-template
